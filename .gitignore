@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Model files (add your trained models here)
+*.h5
+*.pkl
+*.joblib
+model/weights/
+model/checkpoints/
+
+# Data
+data/
+datasets/
+*.csv
+*.json
+!package.json
+!package-lock.json
+
+# Temporary files
+tmp/
+temp/
+.cache/
